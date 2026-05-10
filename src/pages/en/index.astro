@@ -72,7 +72,7 @@ const metadata = {
 <!-- BFW-352: tenant slug + public API base URL for the AvailabilityCalendar widget.
      BFW-532: bookings snapshot embedded so the calendar renders from static HTML
      even when the runtime fetch is blocked (Chrome PNA, mixed content, offline). -->
-<script is:inline define:vars={{ tenantSlug: '340363', apiBase: 'http://localhost:9080', bookingsRaw: '[{"apartmentSlug":"bergwiese","startDate":"2026-05-21","endDate":"2026-05-24","status":"BOOKED"},{"apartmentSlug":"alpenpanorama","startDate":"2026-05-08","endDate":"2026-05-13","status":"BOOKED"},{"apartmentSlug":"alpenpanorama","startDate":"2026-05-21","endDate":"2026-05-27","status":"BOOKED"},{"apartmentSlug":"alpenpanorama","startDate":"2026-05-28","endDate":"2026-06-10","status":"BOOKED"},{"apartmentSlug":"bergwiese","startDate":"2026-05-13","endDate":"2026-05-20","status":"BOOKED"},{"apartmentSlug":"bergwiese","startDate":"2026-05-25","endDate":"2026-05-31","status":"BOOKED"},{"apartmentSlug":"alpenpanorama","startDate":"2026-06-25","endDate":"2026-07-03","status":"BOOKED"},{"apartmentSlug":"bergwiese","startDate":"2026-07-09","endDate":"2026-07-12","status":"BOOKED"}]' }}>
+<script is:inline define:vars={{ tenantSlug: '340363', apiBase: 'http://localhost:9080', bookingsRaw: '[{"apartmentSlug":"bergwiese","startDate":"2026-05-21","endDate":"2026-05-24","status":"BOOKED"},{"apartmentSlug":"alpenpanorama","startDate":"2026-05-08","endDate":"2026-05-13","status":"BOOKED"},{"apartmentSlug":"alpenpanorama","startDate":"2026-05-21","endDate":"2026-05-27","status":"BOOKED"},{"apartmentSlug":"alpenpanorama","startDate":"2026-05-28","endDate":"2026-06-10","status":"BOOKED"},{"apartmentSlug":"bergwiese","startDate":"2026-05-13","endDate":"2026-05-20","status":"BOOKED"},{"apartmentSlug":"bergwiese","startDate":"2026-05-25","endDate":"2026-05-31","status":"BOOKED"},{"apartmentSlug":"alpenpanorama","startDate":"2026-06-25","endDate":"2026-07-03","status":"BOOKED"},{"apartmentSlug":"bergwiese","startDate":"2026-07-09","endDate":"2026-07-12","status":"BOOKED"},{"apartmentSlug":"alpenpanorama","startDate":"2026-06-11","endDate":"2026-06-14","status":"BOOKED"}]' }}>
   window.MFWS_TENANT_SLUG = tenantSlug;
   window.MFWS_PUBLIC_API_BASE_URL = apiBase;
   try {
@@ -281,12 +281,12 @@ const metadata = {
               <span class="flex items-center gap-1"><Icon name="tabler:maximize" class="w-3.5 h-3.5" /> 110 m²</span>
               <span class="flex items-center gap-1"><Icon name="tabler:sofa" class="w-3.5 h-3.5" /> Living room</span>
               <span class="flex items-center gap-1"><Icon name="tabler:bed" class="w-3.5 h-3.5" /> Bedroom</span>
+              <span class="flex items-center gap-1"><Icon name="tabler:bed-flat" class="w-3.5 h-3.5" /> Double bed</span>
+              <span class="flex items-center gap-1"><Icon name="tabler:bed" class="w-3.5 h-3.5" /> Single bed</span>
               <span class="flex items-center gap-1"><Icon name="tabler:tools-kitchen-2" class="w-3.5 h-3.5" /> Kitchen</span>
               <span class="flex items-center gap-1"><Icon name="tabler:bath" class="w-3.5 h-3.5" /> Bathroom</span>
               <span class="flex items-center gap-1"><Icon name="tabler:droplet" class="w-3.5 h-3.5" /> Shower</span>
               <span class="flex items-center gap-1"><Icon name="tabler:toilet-paper" class="w-3.5 h-3.5" /> WC</span>
-              <span class="flex items-center gap-1"><Icon name="tabler:bed-flat" class="w-3.5 h-3.5" /> Double bed</span>
-              <span class="flex items-center gap-1"><Icon name="tabler:bed" class="w-3.5 h-3.5" /> Single bed</span>
               <span class="flex items-center gap-1"><Icon name="tabler:device-tv" class="w-3.5 h-3.5" /> TV</span>
               <span class="flex items-center gap-1"><Icon name="tabler:wifi" class="w-3.5 h-3.5" /> Wi-Fi</span>
             </div>

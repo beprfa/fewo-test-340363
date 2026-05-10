@@ -8,9 +8,9 @@ _Stand: Februar 2026_
 ## 1. Verantwortlicher
 
 Nicole Neckermann
-Mühlenstraße
-38667 Bad Harzburg
-Deutschland
+
+ 
+
 E-Mail: nicole.neckermann@icloud.com
 
 
@@ -57,9 +57,9 @@ Zur Ausübung Ihrer Rechte schreiben Sie an nicole.neckermann@icloud.com.
 
 Sie haben das Recht, sich bei einer Aufsichtsbehörde zu beschweren. Die für uns zuständige Aufsichtsbehörde ist:
 
-Bayerisches Landesamt für Datenschutzaufsicht (BayLDA)
-Promenade 18, 91522 Ansbach
-Website: www.lda.bayern.de
+Zuständige Datenschutzbehörde – bitte in Kontoverwaltung Land und Bundesland/Kanton hinterlegen.
+Zuständige Datenschutzbehörde – bitte in Kontoverwaltung Land und Bundesland/Kanton hinterlegen.
+Website: Zuständige Datenschutzbehörde – bitte in Kontoverwaltung Land und Bundesland/Kanton hinterlegen.
 
 Sie können sich auch an die Datenschutzbehörde Ihres Wohnsitzlandes wenden.
 
