@@ -57,4 +57,4 @@ The fewo-demo-6 templates carry block markers that the back-end fills at publish
 | `%%%APARTMENT_OPTIONS_DE_START/END%%%`, `_EN` | `src/pages/contact.astro`, `en/contact.astro` | apartment `<option>` list |
 | `%%%APARTMENT_CARDS_DE_START/END%%%`, `_EN` | `src/pages/index.astro`, `en/index.astro` | apartment cards including date-picker widget |
 
-Plus simple markers (`340363`, `http://localhost:9080`, `Haus Sonnenschein`, `nicole.neckermann@icloud.com`, etc.) used by the AvailabilityCalendar and various inline texts.
+Plus simple markers (`340363`, `http://localhost:9080`, `Sonnenhof Alpenblick`, `nicole.neckermann@icloud.com`, etc.) used by the AvailabilityCalendar and various inline texts.

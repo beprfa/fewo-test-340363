@@ -1,5 +1,5 @@
 site:
-  name: 'Haus Sonnenschein'
+  name: 'Sonnenhof Alpenblick'
   site: 'http://localhost:4326'
   base: '/'
   trailingSlash: false
@@ -9,14 +9,14 @@ site:
 # Default SEO metadata
 metadata:
   title:
-    default: 'Haus Sonnenschein – Ferienwohnungen in Aschau im Chiemgau'
-    template: '%s — Haus Sonnenschein'
+    default: 'Sonnenhof Alpenblick – Ferienwohnungen in Aschau im Chiemgau'
+    template: '%s — Sonnenhof Alpenblick'
   description: 'Ferienwohnungen im alpinen Landhaus am Fuße der Chiemgauer Alpen. Ankommen. Durchatmen. Genießen.'
   robots:
     index: true
     follow: true
   openGraph:
-    site_name: 'Haus Sonnenschein'
+    site_name: 'Sonnenhof Alpenblick'
     images:
       - url: '~/assets/images/default.png'
         width: 1200
