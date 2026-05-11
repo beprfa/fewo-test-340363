@@ -5,10 +5,10 @@ layout: '~/layouts/MarkdownLayoutEn.astro'
 
 ## Information pursuant to § 5 TMG
 
-Nicole Neckermann
-Bergstraße 7
-83229 Aschau im Chiemgau
-Germany
+Nicole Neckermann<br>
+Pariser Straße 5a<br>
+70173 Stuttgart<br>
+Deutschland
 
 ## Contact
 
@@ -16,10 +16,10 @@ Email: nicole.neckermann@icloud.com
 
 ## Responsible for content pursuant to § 55(2) RStV
 
-Nicole Neckermann
-Bergstraße 7
-83229 Aschau im Chiemgau
-Germany
+Nicole Neckermann<br>
+Pariser Straße 5a<br>
+70173 Stuttgart<br>
+Deutschland
 
 ## Notice
 

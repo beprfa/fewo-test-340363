@@ -8,7 +8,7 @@ _Stand: Februar 2026_
 ## 1. Verantwortlicher
 
 Nicole Neckermann
-Pariser Straße
+Pariser Straße 5a
 70173 Stuttgart
 Deutschland
 E-Mail: nicole.neckermann@icloud.com
