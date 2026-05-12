@@ -8,7 +8,7 @@ _Last updated: February 2026_
 ## 1. Data Controller
 
 Nicole Neckermann<br>
-Pariser Straße 5b<br>
+Pariser Straße 5a<br>
 70173 Stuttgart<br>
 Deutschland<br>
 Email: nicole.neckermann@icloud.com

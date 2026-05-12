@@ -44,7 +44,7 @@ const terms = [
            and (Pflicht|optional) flag. -->
       <div class="space-y-4 mb-6">
       <div class="bg-white dark:bg-slate-800 p-5 rounded-lg border border-gray-200 dark:border-slate-700">
-        <h4 class="text-lg font-semibold mb-3 dark:text-white">Alpenpanorama</h4>
+        <h4 class="text-lg font-semibold mb-3 dark:text-white">Alpenblick</h4>
         <dl class="space-y-2 text-sm">
           <div class="flex justify-between gap-4">
             <dt class="text-default dark:text-slate-300">Grundpreis/Nacht (1-2 Pers.)</dt>
@@ -61,6 +61,10 @@ const terms = [
           <div class="flex justify-between gap-4">
             <dt class="text-default dark:text-slate-300">Haustier <span class="text-xs text-muted italic">(optional)</span></dt>
             <dd class="text-muted dark:text-slate-400 whitespace-nowrap">12 € (pro Nacht)</dd>
+          </div>
+          <div class="flex justify-between gap-4">
+            <dt class="text-default dark:text-slate-300">Babybett <span class="text-xs text-muted italic">(optional)</span></dt>
+            <dd class="text-muted dark:text-slate-400 whitespace-nowrap">15 € (einmalig)</dd>
           </div>
         </dl>
       </div>
@@ -138,7 +142,7 @@ const terms = [
             <label for="apartment" class="block text-sm font-medium mb-1 dark:text-white">Wohnung *</label>
             <select id="apartment" name="apartment" required class="w-full px-4 py-2 border border-gray-300 dark:border-slate-600 rounded-lg bg-white dark:bg-slate-700 dark:text-white focus:ring-2 focus:ring-primary focus:border-primary">
               <option value="">Bitte wählen...</option>
-              <option value="alpenpanorama">Alpenpanorama</option>
+              <option value="alpenblick">Alpenblick</option>
               <option value="bergwiese">Bergwiese</option>
             </select>
           </div>
@@ -156,7 +160,7 @@ const terms = [
 
           <!-- BFW-467/486: per-apartment additional services blocks (shown/hidden by JS on apartment change). -->
           <!-- Backend renders one <div id="services-<slug>" class="hidden">…</div> per apartment, concatenated. -->
-      <div id="services-alpenpanorama" class="hidden mb-8">
+      <div id="services-alpenblick" class="hidden mb-8">
         <h4 class="text-lg font-semibold mb-3 dark:text-white">Zusatzleistungen</h4>
         <div class="bg-white dark:bg-slate-800 rounded-lg border border-gray-200 dark:border-slate-700 px-4">
           <label class="flex items-start gap-2 py-2 border-b border-primary/10 last:border-b-0 cursor-pointer">
@@ -176,6 +180,15 @@ const terms = [
               class="mt-0.5 accent-primary service-checkbox" />
             <span class="flex-1 text-sm text-default dark:text-white">Haustier</span>
             <span class="text-sm text-muted dark:text-slate-400 whitespace-nowrap">12 € (pro Nacht)</span>
+          </label>
+          <label class="flex items-start gap-2 py-2 border-b border-primary/10 last:border-b-0 cursor-pointer">
+            <input type="checkbox"
+              data-service-id="48"
+              data-calc-type="ONCE"
+              data-amount="15"
+              class="mt-0.5 accent-primary service-checkbox" />
+            <span class="flex-1 text-sm text-default dark:text-white">Babybett</span>
+            <span class="text-sm text-muted dark:text-slate-400 whitespace-nowrap">15 € (einmalig)</span>
           </label>
         </div>
       </div>

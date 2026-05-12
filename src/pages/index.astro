@@ -11,14 +11,14 @@ import AvailabilityCalendar from '~/components/AvailabilityCalendar.astro';
 
 import ImageCarousel from '~/components/ImageCarousel.astro';
 
-import alpenpanorama_1 from '~/assets/images/apartments/alpenpanorama/alpenpanorama-1.jpg';
-import alpenpanorama_2 from '~/assets/images/apartments/alpenpanorama/alpenpanorama-2.jpg';
-import alpenpanorama_3 from '~/assets/images/apartments/alpenpanorama/alpenpanorama-3.jpg';
-import alpenpanorama_4 from '~/assets/images/apartments/alpenpanorama/alpenpanorama-4.jpg';
-import alpenpanorama_5 from '~/assets/images/apartments/alpenpanorama/alpenpanorama-5.jpg';
-import alpenpanorama_6 from '~/assets/images/apartments/alpenpanorama/alpenpanorama-6.jpg';
-import alpenpanorama_7 from '~/assets/images/apartments/alpenpanorama/alpenpanorama-7.jpg';
-import alpenpanorama_8 from '~/assets/images/apartments/alpenpanorama/alpenpanorama-8.jpg';
+import alpenblick_1 from '~/assets/images/apartments/alpenpanorama/alpenpanorama-1.jpg';
+import alpenblick_2 from '~/assets/images/apartments/alpenpanorama/alpenpanorama-2.jpg';
+import alpenblick_3 from '~/assets/images/apartments/alpenpanorama/alpenpanorama-3.jpg';
+import alpenblick_4 from '~/assets/images/apartments/alpenpanorama/alpenpanorama-4.jpg';
+import alpenblick_5 from '~/assets/images/apartments/alpenpanorama/alpenpanorama-5.jpg';
+import alpenblick_6 from '~/assets/images/apartments/alpenpanorama/alpenpanorama-6.jpg';
+import alpenblick_7 from '~/assets/images/apartments/alpenpanorama/alpenpanorama-7.jpg';
+import alpenblick_8 from '~/assets/images/apartments/alpenpanorama/alpenpanorama-8.jpg';
 
 import bergwiese_1 from '~/assets/images/apartments/bergwiese/bergwiese-1.jpg';
 import bergwiese_2 from '~/assets/images/apartments/bergwiese/bergwiese-2.jpg';
@@ -34,15 +34,15 @@ import lh4 from '~/assets/images/landhaus/bauernhof-04.jpg';
 import lh5 from '~/assets/images/landhaus/bauernhof-05.jpg';
 import lh6 from '~/assets/images/landhaus/bauernhof-06.jpg';
 
-const alpenpanoramaImages = [
-  { src: alpenpanorama_1, alt: 'Alpenpanorama 1' },
-  { src: alpenpanorama_2, alt: 'Alpenpanorama 2' },
-  { src: alpenpanorama_3, alt: 'Alpenpanorama 3' },
-  { src: alpenpanorama_4, alt: 'Alpenpanorama 4' },
-  { src: alpenpanorama_5, alt: 'Alpenpanorama 5' },
-  { src: alpenpanorama_6, alt: 'Alpenpanorama 6' },
-  { src: alpenpanorama_7, alt: 'Alpenpanorama 7' },
-  { src: alpenpanorama_8, alt: 'Alpenpanorama 8' },
+const alpenblickImages = [
+  { src: alpenblick_1, alt: 'Alpenblick 1' },
+  { src: alpenblick_2, alt: 'Alpenblick 2' },
+  { src: alpenblick_3, alt: 'Alpenblick 3' },
+  { src: alpenblick_4, alt: 'Alpenblick 4' },
+  { src: alpenblick_5, alt: 'Alpenblick 5' },
+  { src: alpenblick_6, alt: 'Alpenblick 6' },
+  { src: alpenblick_7, alt: 'Alpenblick 7' },
+  { src: alpenblick_8, alt: 'Alpenblick 8' },
 ];
 
 const bergwieseImages = [
@@ -73,7 +73,7 @@ const metadata = {
      BFW-532: bookings snapshot embedded so the calendar renders from static HTML
      even when the runtime fetch is blocked (Chrome PNA, mixed content, offline).
      Markers are replaced by WebsiteContentReplacer at publish time. -->
-<script is:inline define:vars={{ tenantSlug: '340363', apiBase: 'http://localhost:9080', bookingsRaw: '[{"apartmentSlug":"bergwiese","startDate":"2026-05-21","endDate":"2026-05-24","status":"BOOKED"},{"apartmentSlug":"alpenpanorama","startDate":"2026-05-08","endDate":"2026-05-13","status":"BOOKED"},{"apartmentSlug":"alpenpanorama","startDate":"2026-05-21","endDate":"2026-05-27","status":"BOOKED"},{"apartmentSlug":"alpenpanorama","startDate":"2026-05-28","endDate":"2026-06-10","status":"BOOKED"},{"apartmentSlug":"bergwiese","startDate":"2026-05-13","endDate":"2026-05-20","status":"BOOKED"},{"apartmentSlug":"bergwiese","startDate":"2026-05-25","endDate":"2026-05-31","status":"BOOKED"},{"apartmentSlug":"alpenpanorama","startDate":"2026-06-25","endDate":"2026-07-03","status":"BOOKED"},{"apartmentSlug":"bergwiese","startDate":"2026-07-09","endDate":"2026-07-12","status":"BOOKED"},{"apartmentSlug":"alpenpanorama","startDate":"2026-06-11","endDate":"2026-06-14","status":"BOOKED"},{"apartmentSlug":"alpenpanorama","startDate":"2026-07-13","endDate":"2026-07-15","status":"BOOKED"}]' }}>
+<script is:inline define:vars={{ tenantSlug: '340363', apiBase: 'http://localhost:9080', bookingsRaw: '[{"apartmentSlug":"bergwiese","startDate":"2026-05-21","endDate":"2026-05-24","status":"BOOKED"},{"apartmentSlug":"alpenblick","startDate":"2026-05-08","endDate":"2026-05-13","status":"BOOKED"},{"apartmentSlug":"alpenblick","startDate":"2026-05-21","endDate":"2026-05-27","status":"BOOKED"},{"apartmentSlug":"alpenblick","startDate":"2026-05-28","endDate":"2026-06-10","status":"BOOKED"},{"apartmentSlug":"bergwiese","startDate":"2026-05-13","endDate":"2026-05-20","status":"BOOKED"},{"apartmentSlug":"bergwiese","startDate":"2026-05-25","endDate":"2026-05-31","status":"BOOKED"},{"apartmentSlug":"alpenblick","startDate":"2026-06-25","endDate":"2026-07-03","status":"BOOKED"},{"apartmentSlug":"bergwiese","startDate":"2026-07-09","endDate":"2026-07-12","status":"BOOKED"},{"apartmentSlug":"alpenblick","startDate":"2026-06-11","endDate":"2026-06-14","status":"BOOKED"},{"apartmentSlug":"alpenblick","startDate":"2026-07-13","endDate":"2026-07-15","status":"BOOKED"},{"apartmentSlug":"alpenblick","startDate":"2026-07-24","endDate":"2026-07-26","status":"BOOKED"}]' }}>
   window.MFWS_TENANT_SLUG = tenantSlug;
   window.MFWS_PUBLIC_API_BASE_URL = apiBase;
   try {
@@ -131,9 +131,9 @@ const metadata = {
 
       <div class="grid md:grid-cols-2 gap-6 max-w-3xl mx-auto">
         <div class="bg-white dark:bg-slate-800 rounded-lg overflow-hidden border border-gray-200 dark:border-slate-700">
-          <ImageCarousel images={alpenpanoramaImages} id="alpenpanorama" />
+          <ImageCarousel images={alpenblickImages} id="alpenblick" />
           <div class="p-5">
-            <h3 class="text-xl font-bold mb-2 dark:text-white">Alpenpanorama</h3>
+            <h3 class="text-xl font-bold mb-2 dark:text-white">Alpenblick</h3>
             <p class="text-sm text-muted dark:text-slate-400 mb-3">Unsere größte Wohnung im Erdgeschoss mit schönem Blick auf die Alpen. Ideal für Familien.</p>
             <p class="text-sm font-semibold text-primary mb-3">Ab 75 € / Nacht (1-2 Pers.) · inkl. 7 % USt</p>
             <div class="flex flex-wrap gap-x-4 gap-y-1.5 text-xs text-muted dark:text-slate-400 mb-4">
@@ -149,29 +149,29 @@ const metadata = {
               <span class="flex items-center gap-1"><Icon name="tabler:device-tv" class="w-3.5 h-3.5" /> TV</span>
               <span class="flex items-center gap-1"><Icon name="tabler:wifi" class="w-3.5 h-3.5" /> WLAN</span>
             </div>
-            <AvailabilityCalendar apartment="alpenpanorama" id="alpenpanorama" />
+            <AvailabilityCalendar apartment="alpenblick" id="alpenblick" />
             <div class="mt-4 border-t border-gray-200 dark:border-slate-700 pt-4">
               <div class="flex flex-wrap gap-3 mb-3">
                 <div>
-                  <label for="bfw-pc-checkin-alpenpanorama" class="block text-xs font-medium text-muted dark:text-slate-400 mb-1">Anreise</label>
-                  <input type="date" id="bfw-pc-checkin-alpenpanorama" class="text-sm px-3 py-2 border border-gray-300 dark:border-slate-600 rounded bg-white dark:bg-slate-700 dark:text-white" />
+                  <label for="bfw-pc-checkin-alpenblick" class="block text-xs font-medium text-muted dark:text-slate-400 mb-1">Anreise</label>
+                  <input type="date" id="bfw-pc-checkin-alpenblick" class="text-sm px-3 py-2 border border-gray-300 dark:border-slate-600 rounded bg-white dark:bg-slate-700 dark:text-white" />
                 </div>
                 <div>
-                  <label for="bfw-pc-checkout-alpenpanorama" class="block text-xs font-medium text-muted dark:text-slate-400 mb-1">Abreise</label>
-                  <input type="date" id="bfw-pc-checkout-alpenpanorama" class="text-sm px-3 py-2 border border-gray-300 dark:border-slate-600 rounded bg-white dark:bg-slate-700 dark:text-white" />
+                  <label for="bfw-pc-checkout-alpenblick" class="block text-xs font-medium text-muted dark:text-slate-400 mb-1">Abreise</label>
+                  <input type="date" id="bfw-pc-checkout-alpenblick" class="text-sm px-3 py-2 border border-gray-300 dark:border-slate-600 rounded bg-white dark:bg-slate-700 dark:text-white" />
                 </div>
               </div>
-              <p id="bfw-pc-date-error-alpenpanorama" class="hidden text-xs text-red-600 mb-2">Mindestens 1 Übernachtung</p>
-              <button type="button" id="bfw-pc-cta-alpenpanorama" disabled class="bg-secondary text-white border-secondary hover:bg-primary hover:border-primary px-4 py-2 rounded-full inline-block text-sm font-semibold transition-colors disabled:opacity-50 disabled:cursor-not-allowed">Buchungsanfrage</button>
+              <p id="bfw-pc-date-error-alpenblick" class="hidden text-xs text-red-600 mb-2">Mindestens 1 Übernachtung</p>
+              <button type="button" id="bfw-pc-cta-alpenblick" disabled class="bg-secondary text-white border-secondary hover:bg-primary hover:border-primary px-4 py-2 rounded-full inline-block text-sm font-semibold transition-colors disabled:opacity-50 disabled:cursor-not-allowed">Buchungsanfrage</button>
             </div>
 <script>
 (function() {
-  var checkinInput = document.getElementById('bfw-pc-checkin-alpenpanorama');
-  var checkoutInput = document.getElementById('bfw-pc-checkout-alpenpanorama');
-  var dateError = document.getElementById('bfw-pc-date-error-alpenpanorama');
-  var ctaButton = document.getElementById('bfw-pc-cta-alpenpanorama');
+  var checkinInput = document.getElementById('bfw-pc-checkin-alpenblick');
+  var checkoutInput = document.getElementById('bfw-pc-checkout-alpenblick');
+  var dateError = document.getElementById('bfw-pc-date-error-alpenblick');
+  var ctaButton = document.getElementById('bfw-pc-cta-alpenblick');
 
-  var APARTMENT_SLUG = 'alpenpanorama';
+  var APARTMENT_SLUG = 'alpenblick';
   var CONTACT_PATH = '/contact';
   var ERR_MIN_STAY = 'Mindestens 1 Übernachtung';
   var ERR_PAST_DATE = 'Bitte zukünftiges Datum wählen';
@@ -503,6 +503,11 @@ const metadata = {
         title: 'Sind Haustiere erlaubt?',
         description:
           '12 € pro Nacht. Maximal 1 Hund',
+      },
+      {
+        title: 'Sind Kinder willkommen?',
+        description:
+          '15 € einmalig',
       },
       {
         title: 'Wie kann ich buchen?',

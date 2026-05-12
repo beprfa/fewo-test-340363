@@ -6,7 +6,7 @@ layout: '~/layouts/MarkdownLayout.astro'
 ## Angaben gemäß § 5 TMG
 
 Nicole Neckermann<br>
-Pariser Straße 5b<br>
+Pariser Straße 5a<br>
 70173 Stuttgart<br>
 Deutschland
 
@@ -17,7 +17,7 @@ E-Mail: nicole.neckermann@icloud.com
 ## Verantwortlich für den Inhalt nach § 55 Abs. 2 RStV
 
 Nicole Neckermann<br>
-Pariser Straße 5b<br>
+Pariser Straße 5a<br>
 70173 Stuttgart<br>
 Deutschland
 
